@@ -5,7 +5,7 @@ class Example {
 	protected $stack;
 	
 	public function __construct() {
-		$this->stack = new \SplStack();
+		$this->stack = new \SplStack;
 	}
 	
 	public function execute() {		
