@@ -47,7 +47,7 @@ class Example {
 		//
 	}
 	
-	public function work() {
+	protected function work() {
 		foreach($this->queue as $task) {
 			$task();
 		}
