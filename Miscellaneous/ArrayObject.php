@@ -1,5 +1,5 @@
 <?php
-namespace Miscellaneous\ArrayObjects;
+namespace SplExamples\Miscellaneous;
 
 class BetterArrayObject extends \ArrayObject {
 	public function __get($name) {
